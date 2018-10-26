@@ -88,6 +88,7 @@ nav a:first-child {
 
 #button {
     text-align: center;
+    margin: 5px 5px;
 }
 
 h2 {
@@ -117,25 +118,19 @@ h2 {
     padding: 10px;
     background-image: url("../images/cheap_diagonal_fabric.png");
 }
+#animal-form {
+    text-align: center;
+    margin: 5px 5px;
+}
 
 .gif-container {
     float: left;
-    /* display: inline-block; */
-    /* display: inline;
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    float: left;
-    width: 274px;
-    margin: 25px 0 20px;
-    overflow: auto;  */ */
 }
 
-/* .clearfix::after{
-    display: block;
-    content: "";
-    clear: both;
-} */
+#animals {
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
 /* footer */
 footer {
     position: fixed;
