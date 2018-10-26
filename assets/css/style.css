@@ -24,11 +24,13 @@ h2 {
 h1 {
     padding-bottom: 10px;
     font-size: 30px;
-    line-height: 49px;
+    line-height: 40px;
 }
 
 h2 {
     font-size: 22px;
+    padding-bottom: 5px;
+    line-height: 20px;
 }
 
 /* header */
@@ -86,51 +88,13 @@ nav a:first-child {
     border-left: 0 none;
 } 
 
-#button {
-    text-align: center;
-    margin: 5px 5px;
-}
-
-h2 {
-    padding-bottom: 10px;
-    margin-bottom: 15px;
-    line-height: 22px;
-}
-
-/* main */
-#main-container {
-    padding-top: 125px;
-    padding-bottom: 20px;
-    /* min-height: calc(100vh - 70px); */
-}
-  
-.main-section {
-    float: left;
-    width: 100%;
-    max-width: 960px;
-    padding: 10px;
-    background-image: url("../images/cheap_diagonal_fabric.png");
-}
-.card {
-    float: left;
-    width: 100%;
-    max-width: 960px;
-    padding: 10px;
-    background-image: url("../images/cheap_diagonal_fabric.png");
-}
-#animal-form {
-    text-align: center;
-    margin: 5px 5px;
-}
-
 .gif-container {
-    float: left;
+    /* align-content: center; */
+    /* display: flex; */
+    margin: 25px;
+    padding: 10px;
 }
 
-#animals {
-    padding: 5px 5px;
-    margin: 5px 5px;
-}
 /* footer */
 footer {
     position: fixed;

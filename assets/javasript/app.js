@@ -34,7 +34,6 @@ $(document).ready(function() {
     // stop it from making double buttons
     $("#buttons").empty();
     createBtn();
-    $("#animal-input").text("");
     $("#animal-input").val("");
   });
 
