@@ -19,6 +19,10 @@ body {
     background-image: url("../images/purty_wood.png");
 }
 
+#link {
+    color: #4aaaa5;
+}
+
 /* general */  
 .container {
     position: relative;
@@ -119,10 +123,13 @@ nav a:first-child {
 #animal-form {
     text-align: center;
     margin: 5px 5px;
+    font-size: 22px;
 }
 
 .gif-container {
     float: left;
+    padding: 5px 5px;
+    margin-right: 5px;
     margin-bottom: 40px;
 }
 
@@ -130,16 +137,27 @@ nav a:first-child {
     padding: 5px 5px;
     margin: 5px 5px;
 }
+.animal {
+    margin-right: 2px;
+    border-radius: 3px;
+    color: white;
+    background: #4aaaa5;
+}
+#find-animal {
+    border-radius: 3px;
+    color: white;
+    background: #4aaaa5;
+}
+
 /* footer */
 footer {
     position: fixed;
     width: 100%;
     margin-top: 5px;
-    font-size: 12px;
-    color: #ffffff;
-    color: #cccccc;
+    font-size: 14px;
+    color: #4aaaa5;
     text-align: center;
     background: #666666;
-    border-top: 8px solid #4aaaa5;
+    border-top: 10px solid #4aaaa5;
     height: 35px;
 }
